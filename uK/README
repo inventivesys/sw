@@ -1,0 +1,1 @@
+uK is a real time kernel running on HC908MR which has only 2048 Bytes of RAM and 60 Kbytes of FLASH EEPROM. Since uK has very small footprint, it can be ported to any microcontroller.
