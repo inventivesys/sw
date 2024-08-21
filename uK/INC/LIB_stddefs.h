@@ -204,6 +204,13 @@ typedef uint32 tuiSTATUS;
 #endif  //ifdef _8BIT_ARCHITECTURE
 
 
+#if defined (__riscv_xlen == 32)
+#define portSTACK_TYPE	uint32_t
+#define portBASE_TYPE   int32_t
+#define portUBASE_TYPE	uint32_t
+#define portMAX_DELAY ( TickType_t ) 0xffffffffUL
+#endif
+
 /*==============================================================================
                                 Enums
 ==============================================================================*/
