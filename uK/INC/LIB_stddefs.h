@@ -4,8 +4,7 @@ FILE NAME:
     LIB_stddefs.h
 
 PURPOSE:
-    This is a header file containing all the data definitions to be used 
-    as common entities in all Xantrex projects.
+    This is a header file containing all the data definitions 
 
 FUNCTION(S):
     None
@@ -33,7 +32,7 @@ Date: 6/23/2003
 
 #if defined(__HIWARE__)         // If compiler is for HCS12
 #if defined(__BIG_ENDIAN__)     // If compiler uses integers in Big Endian order
-#define XT_BIG_ENDIAN           // Define Xantrex Big Endian
+#define XT_BIG_ENDIAN           // Define Big Endian
 #endif
 #endif
 
